@@ -13,6 +13,8 @@
 		AD478BB42690205F00BAC53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD478BB22690205F00BAC53B /* Main.storyboard */; };
 		AD478BB62690206000BAC53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD478BB52690206000BAC53B /* Assets.xcassets */; };
 		AD478BB92690206000BAC53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD478BB72690206000BAC53B /* LaunchScreen.storyboard */; };
+		AD478BC226902B0D00BAC53B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD478BC126902B0D00BAC53B /* WebKit.framework */; };
+		AD478BC426902E0F00BAC53B /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = AD478BC326902E0F00BAC53B /* htmlView.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AD478BB52690206000BAC53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD478BB82690206000BAC53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD478BBA2690206000BAC53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD478BC126902B0D00BAC53B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AD478BC326902E0F00BAC53B /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD478BC226902B0D00BAC53B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				AD478BAB2690205F00BAC53B /* WebView */,
 				AD478BAA2690205F00BAC53B /* Products */,
+				AD478BC026902B0D00BAC53B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +65,21 @@
 				AD478BAC2690205F00BAC53B /* AppDelegate.swift */,
 				AD478BAE2690205F00BAC53B /* SceneDelegate.swift */,
 				AD478BB02690205F00BAC53B /* ViewController.swift */,
+				AD478BC326902E0F00BAC53B /* htmlView.html */,
 				AD478BB22690205F00BAC53B /* Main.storyboard */,
 				AD478BB52690206000BAC53B /* Assets.xcassets */,
 				AD478BB72690206000BAC53B /* LaunchScreen.storyboard */,
 				AD478BBA2690206000BAC53B /* Info.plist */,
 			);
 			path = WebView;
+			sourceTree = "<group>";
+		};
+		AD478BC026902B0D00BAC53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD478BC126902B0D00BAC53B /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD478BC426902E0F00BAC53B /* htmlView.html in Resources */,
 				AD478BB92690206000BAC53B /* LaunchScreen.storyboard in Resources */,
 				AD478BB62690206000BAC53B /* Assets.xcassets in Resources */,
 				AD478BB42690205F00BAC53B /* Main.storyboard in Resources */,
